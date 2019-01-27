@@ -1,0 +1,20 @@
+link do jogo:
+https://t4vor4.github.io/cade_meu_gato.github.io/
+
+repositorio do jogo no github: 
+https://github.com/t4vor4/cade_meu_gato.github.io
+
+Usei neste projeto: 
+NES.css (https://nostalgic-css.github.io/NES.css/)
+Jquery (https://jquery.com/)
+Imagens de OpenGameArt.org (https://opengameart.org/)
+
+### Obrigado especial ao Pessoal da Global Game Jam
+https://globalgamejam.org/
+
+### Obrigado especial ao Pessoal do Sesc Belenzinho
+https://www.sescsp.org.br/unidades/25_BELENZINHO/
+
+### Obrigado especial à Shepardskin, que fez a pixel-art do gatinho ###
+https://twitter.com/Shepardskin
+
