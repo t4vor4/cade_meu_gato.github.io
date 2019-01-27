@@ -192,14 +192,14 @@ $(document).ready(function(){
 function splash() {
     $('.content').html(
         '<section class="splash splash--1">'+
-        '<h1><img src="GGJ00_Logo_Dark.png" /></h1>'+
+        '<h1><img src="./src/GGJ00_Logo_Dark.png" /></h1>'+
         '</section>'
     )
     setTimeout(function(){
         $('.splash--1').fadeOut(200, function(){
             $('.content').html(
                 '<section class="splash splash--2" style="display:none;">'+
-                '<h1><img class="gato_logo" src="./cat_sprite/gato_logo.png" /><strong>Cara, <small>cade meu gato?</small></strong></h1>'+
+                '<h1><img class="gato_logo" src="./src/gato_logo.png" /><strong>Cara, <small>cade meu gato?</small></strong></h1>'+
                 '<div class="containers containers--inicio" style="display:none;">'+
                 // '</div>'+
                 '<button class="nes-btn start">Início</button>'+
@@ -252,6 +252,9 @@ function amigos_nesta_sala(lista_amigo, local_atual) {
 
 function pessoa_responde(id_pessoa,posicao,arr_frases) {
     let frases = arr_frases.pistas;
+    if (frases == null) {
+        frases = ['eita', 'nossa', 'sei não, bixo!']
+    }
     //console.log(frases)
     let pessoa = {};
     if (pontuacao < controle){
